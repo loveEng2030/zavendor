@@ -99,7 +99,7 @@ function AuthPage() {
     <div className="container mx-auto flex min-h-[70vh] items-center justify-center px-4 py-8">
       <Card className="w-full max-w-md p-6">
         <div className="mb-5 text-center">
-          <h1 className="text-2xl font-bold text-foreground">حسابك في خير زمان</h1>
+          <h1 className="text-2xl font-bold text-foreground">حسابك في zvonder</h1>
           <p className="mt-1 text-sm text-muted-foreground">سجل دخول أو أنشئ حساباً جديداً</p>
         </div>
         <Tabs defaultValue="signin">

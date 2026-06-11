@@ -10,8 +10,8 @@ export function Footer() {
       <div className="container mx-auto px-4 py-8">
         <div className="grid gap-6 md:grid-cols-2">
           <div>
-            <h3 className="mb-3 text-lg font-bold text-foreground">🛒 سوبر ماركت خير زمان</h3>
-            <p className="text-sm text-muted-foreground">إدارة: ابو عمر سامح</p>
+            <h3 className="mb-3 text-lg font-bold text-foreground">🛒 zvonder</h3>
+            <p className="text-sm text-muted-foreground">إدارة: وليد أحمد وعمرو أحمد</p>
             <p className="mt-2 text-sm font-medium text-primary">"من قلب القرية إلى بيتك — جودة بسعر زمان"</p>
             <p className="mt-2 text-xs text-muted-foreground">كل ما تحتاجه يصلك بسرعة وأمان</p>
           </div>
