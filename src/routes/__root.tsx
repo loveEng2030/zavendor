@@ -48,6 +48,8 @@ export const Route = createRootRoute({
       { name: "apple-mobile-web-app-status-bar-style", content: "default" },
       { name: "apple-mobile-web-app-title", content: "ZaVendor" },
       { name: "mobile-web-app-capable", content: "yes" },
+      { property: "og:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/ef2d3c53-ea0c-46a4-b45b-1207aace308e" },
+      { name: "twitter:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/ef2d3c53-ea0c-46a4-b45b-1207aace308e" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
