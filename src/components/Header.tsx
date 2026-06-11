@@ -10,7 +10,8 @@ import { useSoundFx } from "@/contexts/SoundContext";
 import { useFavorites } from "@/contexts/FavoritesContext";
 import { openWhatsAppApp } from "@/lib/whatsapp";
 import { InstallAppButton } from "@/components/InstallAppButton";
-import logo from "@/assets/logo.webp";
+import logoAsset from "@/assets/zavendor-logo.png.asset.json";
+const logo = logoAsset.url;
 
 const whatsappMessage = "السلام عليكم عاوز استفسر عن طلب";
 

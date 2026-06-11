@@ -43,7 +43,7 @@ export const Route = createRootRoute({
       { name: "twitter:title", content: "ZaVendor - إدارة وليد أحمد وعمرو أحمد" },
       { name: "twitter:description", content: "ZaVendor - تسوق أونلاين بأفضل الأسعار. إدارة: وليد أحمد وعمرو أحمد." },
       { name: "twitter:card", content: "summary_large_image" },
-      { name: "theme-color", content: "#16a34a" },
+      { name: "theme-color", content: "#5c1a2b" },
       { name: "apple-mobile-web-app-capable", content: "yes" },
       { name: "apple-mobile-web-app-status-bar-style", content: "default" },
       { name: "apple-mobile-web-app-title", content: "ZaVendor" },
