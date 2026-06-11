@@ -10,35 +10,35 @@ export function Footer() {
       <div className="container mx-auto px-4 py-8">
         <div className="grid gap-6 md:grid-cols-2">
           <div>
-            <h3 className="mb-3 text-lg font-bold text-foreground">🛒 zvonder</h3>
+            <h3 className="mb-3 text-lg font-bold text-foreground">🛒 ZaVendor</h3>
             <p className="text-sm text-muted-foreground">إدارة: وليد أحمد وعمرو أحمد</p>
-            <p className="mt-2 text-sm font-medium text-primary">"من قلب القرية إلى بيتك — جودة بسعر زمان"</p>
-            <p className="mt-2 text-xs text-muted-foreground">كل ما تحتاجه يصلك بسرعة وأمان</p>
+            <p className="mt-2 text-sm font-medium text-primary">"اختيارات أفضل لحياة أسهل"</p>
+            <p className="mt-2 text-xs text-muted-foreground">منتجات مختارة بعناية تصلك بسرعة وأمان</p>
           </div>
 
           <div className="space-y-2.5 text-sm">
             <a
-              href="tel:+201278110854"
+              href="tel:+201068528886"
               className="flex items-center gap-2 text-foreground transition-colors hover:text-primary"
             >
               <Phone className="h-4 w-4" />
-              <span dir="ltr">01278110854</span>
+              <span dir="ltr">01068528886</span>
               <span className="text-muted-foreground">- اتصال</span>
             </a>
             <a
-              href="whatsapp://send?phone=201278110854"
+              href="whatsapp://send?phone=201068528886"
               onClick={(e) => {
                 e.preventDefault();
-                openWhatsAppApp("201278110854", whatsappMessage);
+                openWhatsAppApp("201068528886", whatsappMessage);
               }}
               className="flex items-center gap-2 text-foreground transition-colors hover:text-primary"
             >
               <MessageCircle className="h-4 w-4" />
-              <span dir="ltr">01278110854</span>
+              <span dir="ltr">01068528886</span>
               <span className="text-muted-foreground">- واتساب</span>
             </a>
             <a
-              href="https://www.facebook.com/khyr.zman.288094"
+              href="https://www.facebook.com/zavendor"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 text-foreground transition-colors hover:text-primary"
@@ -47,13 +47,13 @@ export function Footer() {
               صفحة الفيسبوك
             </a>
             <a
-              href="https://maps.app.goo.gl/ZL1hHbPzfMsTiziEA"
+              href="https://maps.google.com/?q=Cairo,Egypt"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 text-foreground transition-colors hover:text-primary"
             >
               <MapPin className="h-4 w-4" />
-              الموقع على الخريطة
+              القاهرة، مصر
             </a>
             <div className="flex items-center gap-2 text-foreground">
               <Smartphone className="h-4 w-4" />

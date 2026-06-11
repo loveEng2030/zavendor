@@ -123,7 +123,7 @@ function HomePage() {
             أسعار اليوم • منتجات طازة
           </div>
           <h1 className="text-3xl font-extrabold text-foreground sm:text-5xl animate-fade-in">
-            <span className="bg-gradient-to-r from-primary to-primary-glow bg-clip-text text-transparent">zvonder</span>
+            <span className="bg-gradient-to-r from-primary to-primary-glow bg-clip-text text-transparent">ZaVendor</span>
           </h1>
           <p className="mt-2 text-sm text-muted-foreground sm:text-base">
             إدارة: وليد أحمد وعمرو أحمد

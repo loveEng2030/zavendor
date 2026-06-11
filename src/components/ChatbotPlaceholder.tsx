@@ -25,10 +25,10 @@ export function ChatbotPlaceholder() {
             مساحة مخصصة لربط شات بوت خارجي. يمكن إضافة السكربت لاحقاً.
           </p>
           <a
-            href="whatsapp://send?phone=201278110854"
+            href="whatsapp://send?phone=201068528886"
             onClick={(e) => {
               e.preventDefault();
-              openWhatsAppApp("201278110854", "السلام عليكم عاوز استفسر عن طلب");
+              openWhatsAppApp("201068528886", "السلام عليكم عاوز استفسر عن طلب");
             }}
             className="mt-3 block rounded-lg bg-primary px-3 py-2 text-center text-sm font-medium text-primary-foreground"
           >
