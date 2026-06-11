@@ -12,8 +12,8 @@ export function Footer() {
           <div>
             <h3 className="mb-3 text-lg font-bold text-foreground">🛒 ZaVendor</h3>
             <p className="text-sm text-muted-foreground">إدارة: وليد أحمد وعمرو أحمد</p>
-            <p className="mt-2 text-sm font-medium text-primary">"من قلب القرية إلى بيتك — جودة بسعر زمان"</p>
-            <p className="mt-2 text-xs text-muted-foreground">كل ما تحتاجه يصلك بسرعة وأمان</p>
+            <p className="mt-2 text-sm font-medium text-primary">"اختيارات أفضل لحياة أسهل"</p>
+            <p className="mt-2 text-xs text-muted-foreground">منتجات مختارة بعناية تصلك بسرعة وأمان</p>
           </div>
 
           <div className="space-y-2.5 text-sm">
@@ -53,7 +53,7 @@ export function Footer() {
               className="flex items-center gap-2 text-foreground transition-colors hover:text-primary"
             >
               <MapPin className="h-4 w-4" />
-              الموقع على الخريطة
+              القاهرة، مصر
             </a>
             <div className="flex items-center gap-2 text-foreground">
               <Smartphone className="h-4 w-4" />
