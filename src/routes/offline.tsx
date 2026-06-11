@@ -7,7 +7,7 @@ import { Card } from "@/components/ui/card";
 export const Route = createFileRoute("/offline")({
   head: () => ({
     meta: [
-      { title: "غير متصل بالإنترنت — خير زمان" },
+      { title: "غير متصل بالإنترنت — zvonder" },
       { name: "description", content: "تصفح المنتجات المحفوظة بدون اتصال بالإنترنت" },
       { name: "robots", content: "noindex" },
     ],

@@ -123,10 +123,10 @@ function HomePage() {
             أسعار اليوم • منتجات طازة
           </div>
           <h1 className="text-3xl font-extrabold text-foreground sm:text-5xl animate-fade-in">
-            سوبر ماركت <span className="bg-gradient-to-r from-primary to-primary-glow bg-clip-text text-transparent">خير زمان</span>
+            <span className="bg-gradient-to-r from-primary to-primary-glow bg-clip-text text-transparent">zvonder</span>
           </h1>
           <p className="mt-2 text-sm text-muted-foreground sm:text-base">
-            إدارة: ابو عمر سامح
+            إدارة: وليد أحمد وعمرو أحمد
           </p>
 
           {/* Rotating quote */}

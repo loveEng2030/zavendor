@@ -56,7 +56,7 @@ export function InstallAppButton() {
     if (res === "granted") {
       toast.success("🔔 تم تفعيل الإشعارات");
       try {
-        new Notification("خير زمان", {
+        new Notification("zvonder", {
           body: "هتوصلك إشعارات بكل جديد وحالة طلباتك",
           icon: "/icon-192.png",
           badge: "/icon-192.png",
@@ -111,7 +111,7 @@ export function InstallAppButton() {
               <Download className="h-5 w-5 text-primary" /> تثبيت التطبيق على الموبايل
             </DialogTitle>
             <DialogDescription>
-              ثبّت تطبيق خير زمان على شاشتك الرئيسية وتوصلك الإشعارات بكل جديد وحالة طلباتك.
+              ثبّت تطبيق zvonder على شاشتك الرئيسية وتوصلك الإشعارات بكل جديد وحالة طلباتك.
             </DialogDescription>
           </DialogHeader>
 

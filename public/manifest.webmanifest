@@ -1,7 +1,7 @@
 {
-  "name": "سوبر ماركت خير زمان",
-  "short_name": "خير زمان",
-  "description": "سوبر ماركت خير زمان - تسوق أونلاين بأفضل الأسعار",
+  "name": "zvonder",
+  "short_name": "zvonder",
+  "description": "zvonder - تسوق أونلاين بأفضل الأسعار. إدارة: وليد أحمد وعمرو أحمد",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",
