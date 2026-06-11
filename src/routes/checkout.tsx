@@ -14,7 +14,7 @@ import { openWhatsAppApp } from "@/lib/whatsapp";
 import { createOrder } from "@/server/orders.functions";
 
 const VODAFONE_CASH = "01070873294";
-const WHATSAPP_NUMBER = "01278110854";
+const WHATSAPP_NUMBER = "01068528886";
 
 type PaymentMethod = "vodafone" | "cod";
 
@@ -151,7 +151,7 @@ ${locationLine}
       toast.info("جاري تحديد موقعك...");
       const location = await getLocation();
       const msg = buildWhatsAppMessage(location);
-      const waUrl = `https://wa.me/201278110854?text=${encodeURIComponent(msg)}`;
+      const waUrl = `https://wa.me/201068528886?text=${encodeURIComponent(msg)}`;
 
       clear();
       toast.success("تم تسجيل الطلب! جاري فتح واتساب...");

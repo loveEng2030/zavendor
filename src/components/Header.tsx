@@ -28,7 +28,7 @@ export function Header() {
           <div className="h-11 w-11 overflow-hidden rounded-full ring-2 ring-primary/40 shadow-[var(--shadow-soft)]">
             <img
               src={logo}
-              alt="شعار zvonder"
+              alt="شعار ZaVendor"
               width={44}
               height={44}
               decoding="async"
@@ -37,7 +37,7 @@ export function Header() {
             />
           </div>
           <div className="text-right leading-tight">
-            <div className="text-base font-bold text-foreground">zvonder</div>
+            <div className="text-base font-bold text-foreground">ZaVendor</div>
             <div className="text-[10px] text-muted-foreground">إدارة: وليد أحمد وعمرو أحمد</div>
           </div>
         </Link>
@@ -52,7 +52,7 @@ export function Header() {
           <Button
             variant="ghost"
             size="icon"
-            onClick={() => openWhatsAppApp("201278110854", whatsappMessage)}
+            onClick={() => openWhatsAppApp("201068528886", whatsappMessage)}
             aria-label="تواصل واتساب"
           >
             <MessageCircle className="h-5 w-5" />

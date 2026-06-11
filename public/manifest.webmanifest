@@ -1,7 +1,7 @@
 {
-  "name": "zvonder",
-  "short_name": "zvonder",
-  "description": "zvonder - تسوق أونلاين بأفضل الأسعار. إدارة: وليد أحمد وعمرو أحمد",
+  "name": "ZaVendor",
+  "short_name": "ZaVendor",
+  "description": "ZaVendor - تسوق أونلاين بأفضل الأسعار. إدارة: وليد أحمد وعمرو أحمد",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",

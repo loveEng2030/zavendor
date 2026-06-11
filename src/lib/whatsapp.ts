@@ -6,9 +6,9 @@ const cleanPhone = (phone: string) => phone.replace(/\D/g, "");
 
 /**
  * Normalize Egyptian numbers to international format.
- * - "01278110854" -> "201278110854"
- * - "201278110854" -> "201278110854"
- * - "+201278110854" -> "201278110854"
+ * - "01068528886" -> "201068528886"
+ * - "201068528886" -> "201068528886"
+ * - "+201068528886" -> "201068528886"
  */
 export const normalizeWhatsAppPhone = (phone: string) => {
   const cleaned = cleanPhone(phone);
