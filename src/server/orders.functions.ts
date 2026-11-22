@@ -21,7 +21,7 @@ const CreateOrderInput = z.object({
 });
 
 export const createOrder = createServerFn({ method: "POST" })
-  .inputValidator((input: unknown) => CreateOrderInput.parse(input))
+  .validator((input: unknown) => CreateOrderInput.parse(input))
   .handler(async ({ data }) => {
     const SUPABASE_URL = process.env.SUPABASE_URL;
     const SUPABASE_PUBLISHABLE_KEY = process.env.SUPABASE_PUBLISHABLE_KEY;
