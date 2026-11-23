@@ -16,6 +16,18 @@ import { toast } from "sonner";
 interface RatingInfo { avg: number; count: number }
 
 export const Route = createFileRoute("/")({
+  head: () => ({
+    meta: [
+      { title: "ZaVendor | التجميل والمنظفات والورقيات" },
+      { name: "description", content: "تسوّق منتجات التجميل والمنظفات والورقيات من ZaVendor في فيصل، الجيزة." },
+      { property: "og:title", content: "ZaVendor | التجميل والمنظفات والورقيات" },
+      { property: "og:description", content: "تسوّق منتجات التجميل والمنظفات والورقيات من ZaVendor في فيصل، الجيزة." },
+      { property: "og:type", content: "website" },
+      { name: "twitter:title", content: "ZaVendor | التجميل والمنظفات والورقيات" },
+      { name: "twitter:description", content: "تسوّق منتجات التجميل والمنظفات والورقيات من ZaVendor في فيصل، الجيزة." },
+      { name: "twitter:card", content: "summary_large_image" },
+    ],
+  }),
   component: HomePage,
 });
 
@@ -127,6 +139,9 @@ function HomePage() {
           </h1>
           <p className="mt-2 text-sm text-muted-foreground sm:text-base">
             إدارة: وليد أحمد وعمرو أحمد
+          </p>
+          <p className="mt-1 text-xs font-semibold text-foreground">
+            التجميل والمنظفات والورقيات
           </p>
 
           {/* Rotating quote */}

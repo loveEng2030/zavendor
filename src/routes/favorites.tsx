@@ -9,6 +9,18 @@ import { useCart, type Product } from "@/contexts/CartContext";
 import { toast } from "sonner";
 
 export const Route = createFileRoute("/favorites")({
+  head: () => ({
+    meta: [
+      { title: "المنتجات المفضلة | ZaVendor" },
+      { name: "description", content: "منتجاتك التي حفظتها في قائمة المفضلة بمتجر ZaVendor." },
+      { property: "og:title", content: "المنتجات المفضلة | ZaVendor" },
+      { property: "og:description", content: "منتجاتك التي حفظتها في قائمة المفضلة بمتجر ZaVendor." },
+      { property: "og:type", content: "website" },
+      { name: "twitter:title", content: "المنتجات المفضلة | ZaVendor" },
+      { name: "twitter:description", content: "منتجاتك التي حفظتها في قائمة المفضلة بمتجر ZaVendor." },
+      { name: "twitter:card", content: "summary" },
+    ],
+  }),
   component: FavoritesPage,
 });
 

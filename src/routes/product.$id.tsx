@@ -12,6 +12,18 @@ import { getCategoryEmoji, getCategoryLabel } from "@/lib/categories";
 import { toast } from "sonner";
 
 export const Route = createFileRoute("/product/$id")({
+  head: () => ({
+    meta: [
+      { title: "تفاصيل المنتج | ZaVendor" },
+      { name: "description", content: "اعرف تفاصيل المنتج وسعره وتقييمات العملاء في متجر ZaVendor." },
+      { property: "og:title", content: "تفاصيل المنتج | ZaVendor" },
+      { property: "og:description", content: "اعرف تفاصيل المنتج وسعره وتقييمات العملاء في متجر ZaVendor." },
+      { property: "og:type", content: "website" },
+      { name: "twitter:title", content: "تفاصيل المنتج | ZaVendor" },
+      { name: "twitter:description", content: "اعرف تفاصيل المنتج وسعره وتقييمات العملاء في متجر ZaVendor." },
+      { name: "twitter:card", content: "summary" },
+    ],
+  }),
   component: ProductPage,
 });
 

@@ -9,6 +9,12 @@ export const Route = createFileRoute("/offline")({
     meta: [
       { title: "غير متصل بالإنترنت — ZaVendor" },
       { name: "description", content: "تصفح المنتجات المحفوظة بدون اتصال بالإنترنت" },
+      { property: "og:title", content: "غير متصل بالإنترنت — ZaVendor" },
+      { property: "og:description", content: "تصفح المنتجات المحفوظة بدون اتصال بالإنترنت" },
+      { property: "og:type", content: "website" },
+      { name: "twitter:title", content: "غير متصل بالإنترنت — ZaVendor" },
+      { name: "twitter:description", content: "تصفح المنتجات المحفوظة بدون اتصال بالإنترنت" },
+      { name: "twitter:card", content: "summary" },
       { name: "robots", content: "noindex" },
     ],
   }),

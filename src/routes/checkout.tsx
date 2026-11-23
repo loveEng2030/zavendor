@@ -10,15 +10,27 @@ import { useCart } from "@/contexts/CartContext";
 import { useAuth } from "@/contexts/AuthContext";
 import { supabase } from "@/integrations/supabase/client";
 import { toast } from "sonner";
-import { openWhatsAppApp } from "@/lib/whatsapp";
+import { buildWhatsAppUrl } from "@/lib/whatsapp";
 import { createOrder } from "@/server/orders.functions";
 
 const VODAFONE_CASH = "01070873294";
-const WHATSAPP_NUMBER = "01068528886";
+const WHATSAPP_NUMBER = "01026189334";
 
 type PaymentMethod = "vodafone" | "cod";
 
 export const Route = createFileRoute("/checkout")({
+  head: () => ({
+    meta: [
+      { title: "إتمام الطلب | ZaVendor" },
+      { name: "description", content: "أدخل بيانات التوصيل واختر طريقة الدفع لإرسال طلبك إلى ZaVendor." },
+      { property: "og:title", content: "إتمام الطلب | ZaVendor" },
+      { property: "og:description", content: "أدخل بيانات التوصيل واختر طريقة الدفع لإرسال طلبك إلى ZaVendor." },
+      { property: "og:type", content: "website" },
+      { name: "twitter:title", content: "إتمام الطلب | ZaVendor" },
+      { name: "twitter:description", content: "أدخل بيانات التوصيل واختر طريقة الدفع لإرسال طلبك إلى ZaVendor." },
+      { name: "twitter:card", content: "summary" },
+    ],
+  }),
   component: CheckoutPage,
 });
 
@@ -151,7 +163,7 @@ ${locationLine}
       toast.info("جاري تحديد موقعك...");
       const location = await getLocation();
       const msg = buildWhatsAppMessage(location);
-      const waUrl = `https://wa.me/201068528886?text=${encodeURIComponent(msg)}`;
+      const waUrl = buildWhatsAppUrl(WHATSAPP_NUMBER, msg);
 
       clear();
       toast.success("تم تسجيل الطلب! جاري فتح واتساب...");

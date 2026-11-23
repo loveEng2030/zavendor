@@ -10,6 +10,18 @@ import { lovable } from "@/integrations/lovable";
 import { toast } from "sonner";
 
 export const Route = createFileRoute("/auth")({
+  head: () => ({
+    meta: [
+      { title: "تسجيل الدخول | ZaVendor" },
+      { name: "description", content: "سجّل الدخول أو أنشئ حساباً لمتابعة طلباتك في ZaVendor." },
+      { property: "og:title", content: "تسجيل الدخول | ZaVendor" },
+      { property: "og:description", content: "سجّل الدخول أو أنشئ حساباً لمتابعة طلباتك في ZaVendor." },
+      { property: "og:type", content: "website" },
+      { name: "twitter:title", content: "تسجيل الدخول | ZaVendor" },
+      { name: "twitter:description", content: "سجّل الدخول أو أنشئ حساباً لمتابعة طلباتك في ZaVendor." },
+      { name: "twitter:card", content: "summary" },
+    ],
+  }),
   validateSearch: (s: Record<string, unknown>): { redirect?: string } => ({
     redirect: typeof s.redirect === "string" ? s.redirect : undefined,
   }),

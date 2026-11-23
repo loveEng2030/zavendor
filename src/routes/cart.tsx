@@ -5,6 +5,18 @@ import { Button } from "@/components/ui/button";
 import { useCart } from "@/contexts/CartContext";
 
 export const Route = createFileRoute("/cart")({
+  head: () => ({
+    meta: [
+      { title: "سلة المشتريات | ZaVendor" },
+      { name: "description", content: "راجع المنتجات والكميات قبل إتمام طلبك من ZaVendor." },
+      { property: "og:title", content: "سلة المشتريات | ZaVendor" },
+      { property: "og:description", content: "راجع المنتجات والكميات قبل إتمام طلبك من ZaVendor." },
+      { property: "og:type", content: "website" },
+      { name: "twitter:title", content: "سلة المشتريات | ZaVendor" },
+      { name: "twitter:description", content: "راجع المنتجات والكميات قبل إتمام طلبك من ZaVendor." },
+      { name: "twitter:card", content: "summary" },
+    ],
+  }),
   component: CartPage,
 });
 

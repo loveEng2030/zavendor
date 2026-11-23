@@ -15,6 +15,18 @@ import { CATEGORIES, getCategoryLabel, getCategoryEmoji } from "@/lib/categories
 import { toast } from "sonner";
 
 export const Route = createFileRoute("/admin")({
+  head: () => ({
+    meta: [
+      { title: "إدارة المتجر | ZaVendor" },
+      { name: "description", content: "إدارة منتجات وطلبات متجر ZaVendor." },
+      { property: "og:title", content: "إدارة المتجر | ZaVendor" },
+      { property: "og:description", content: "إدارة منتجات وطلبات متجر ZaVendor." },
+      { property: "og:type", content: "website" },
+      { name: "twitter:title", content: "إدارة المتجر | ZaVendor" },
+      { name: "twitter:description", content: "إدارة منتجات وطلبات متجر ZaVendor." },
+      { name: "twitter:card", content: "summary" },
+    ],
+  }),
   component: AdminPage,
 });
 

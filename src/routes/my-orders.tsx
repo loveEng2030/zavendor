@@ -9,6 +9,18 @@ import { supabase } from "@/integrations/supabase/client";
 import { toast } from "sonner";
 
 export const Route = createFileRoute("/my-orders")({
+  head: () => ({
+    meta: [
+      { title: "طلباتي | ZaVendor" },
+      { name: "description", content: "تابع حالة طلباتك السابقة من متجر ZaVendor." },
+      { property: "og:title", content: "طلباتي | ZaVendor" },
+      { property: "og:description", content: "تابع حالة طلباتك السابقة من متجر ZaVendor." },
+      { property: "og:type", content: "website" },
+      { name: "twitter:title", content: "طلباتي | ZaVendor" },
+      { name: "twitter:description", content: "تابع حالة طلباتك السابقة من متجر ZaVendor." },
+      { name: "twitter:card", content: "summary" },
+    ],
+  }),
   component: MyOrdersPage,
 });
 
