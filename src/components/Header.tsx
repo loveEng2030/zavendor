@@ -10,7 +10,7 @@ import { useSoundFx } from "@/contexts/SoundContext";
 import { useFavorites } from "@/contexts/FavoritesContext";
 import { openWhatsAppApp } from "@/lib/whatsapp";
 import { InstallAppButton } from "@/components/InstallAppButton";
-import logoAsset from "@/assets/zavendor-logo.png.asset.json";
+import logoAsset from "@/assets/albasma-logo-cropped.jpg.asset.json";
 const logo = logoAsset.url;
 
 const whatsappMessage = "السلام عليكم عاوز استفسر عن طلب";
@@ -26,15 +26,15 @@ export function Header() {
     <header className="sticky top-0 z-40 w-full border-b border-border bg-background/85 backdrop-blur-md">
       <div className="container mx-auto flex h-16 items-center justify-between px-4">
         <Link to="/" className="flex items-center gap-2">
-          <div className="h-11 w-11 overflow-hidden rounded-full ring-2 ring-primary/40 shadow-[var(--shadow-soft)]">
+          <div className="h-14 w-14 overflow-hidden rounded-md ring-2 ring-primary/40 shadow-[var(--shadow-soft)]">
             <img
               src={logo}
-              alt="شعار ZaVendor"
-              width={44}
-              height={44}
+              alt="شعار البسمة لمستحضرات التجميل"
+              width={56}
+              height={56}
               decoding="async"
               fetchPriority="high"
-              className="h-full w-full object-cover"
+              className="h-full w-full object-contain"
             />
           </div>
           <div className="text-right leading-tight">
