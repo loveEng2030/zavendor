@@ -7,12 +7,12 @@ import { Card } from "@/components/ui/card";
 export const Route = createFileRoute("/offline")({
   head: () => ({
     meta: [
-      { title: "غير متصل بالإنترنت — البسمة لمستحضرات التجميل" },
+      { title: "غير متصل بالإنترنت — الإسلامية" },
       { name: "description", content: "تصفح المنتجات المحفوظة بدون اتصال بالإنترنت" },
-      { property: "og:title", content: "غير متصل بالإنترنت — البسمة لمستحضرات التجميل" },
+      { property: "og:title", content: "غير متصل بالإنترنت — الإسلامية" },
       { property: "og:description", content: "تصفح المنتجات المحفوظة بدون اتصال بالإنترنت" },
       { property: "og:type", content: "website" },
-      { name: "twitter:title", content: "غير متصل بالإنترنت — البسمة لمستحضرات التجميل" },
+      { name: "twitter:title", content: "غير متصل بالإنترنت — الإسلامية" },
       { name: "twitter:description", content: "تصفح المنتجات المحفوظة بدون اتصال بالإنترنت" },
       { name: "twitter:card", content: "summary" },
       { name: "robots", content: "noindex" },

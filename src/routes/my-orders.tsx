@@ -11,13 +11,13 @@ import { toast } from "sonner";
 export const Route = createFileRoute("/my-orders")({
   head: () => ({
     meta: [
-      { title: "طلباتي | البسمة لمستحضرات التجميل" },
-      { name: "description", content: "تابع حالة طلباتك السابقة من متجر البسمة لمستحضرات التجميل." },
-      { property: "og:title", content: "طلباتي | البسمة لمستحضرات التجميل" },
-      { property: "og:description", content: "تابع حالة طلباتك السابقة من متجر البسمة لمستحضرات التجميل." },
+      { title: "طلباتي | الإسلامية" },
+      { name: "description", content: "تابع حالة طلباتك السابقة من متجر الإسلامية." },
+      { property: "og:title", content: "طلباتي | الإسلامية" },
+      { property: "og:description", content: "تابع حالة طلباتك السابقة من متجر الإسلامية." },
       { property: "og:type", content: "website" },
-      { name: "twitter:title", content: "طلباتي | البسمة لمستحضرات التجميل" },
-      { name: "twitter:description", content: "تابع حالة طلباتك السابقة من متجر البسمة لمستحضرات التجميل." },
+      { name: "twitter:title", content: "طلباتي | الإسلامية" },
+      { name: "twitter:description", content: "تابع حالة طلباتك السابقة من متجر الإسلامية." },
       { name: "twitter:card", content: "summary" },
     ],
   }),

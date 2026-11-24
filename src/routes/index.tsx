@@ -18,13 +18,13 @@ interface RatingInfo { avg: number; count: number }
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "البسمة لمستحضرات التجميل | التجميل والمنظفات والورقيات" },
-      { name: "description", content: "تسوّق منتجات التجميل والمنظفات والورقيات من البسمة لمستحضرات التجميل في فيصل، الجيزة." },
-      { property: "og:title", content: "البسمة لمستحضرات التجميل | التجميل والمنظفات والورقيات" },
-      { property: "og:description", content: "تسوّق منتجات التجميل والمنظفات والورقيات من البسمة لمستحضرات التجميل في فيصل، الجيزة." },
+      { title: "الإسلامية | التجميل والمنظفات والورقيات" },
+      { name: "description", content: "منتجات التجميل والمنظفات والورقيات من متجر الإسلامية في فيصل، الجيزة." },
+      { property: "og:title", content: "الإسلامية | التجميل والمنظفات والورقيات" },
+      { property: "og:description", content: "منتجات التجميل والمنظفات والورقيات من متجر الإسلامية في فيصل، الجيزة." },
       { property: "og:type", content: "website" },
-      { name: "twitter:title", content: "البسمة لمستحضرات التجميل | التجميل والمنظفات والورقيات" },
-      { name: "twitter:description", content: "تسوّق منتجات التجميل والمنظفات والورقيات من البسمة لمستحضرات التجميل في فيصل، الجيزة." },
+      { name: "twitter:title", content: "الإسلامية | التجميل والمنظفات والورقيات" },
+      { name: "twitter:description", content: "منتجات التجميل والمنظفات والورقيات من متجر الإسلامية في فيصل، الجيزة." },
       { name: "twitter:card", content: "summary_large_image" },
     ],
   }),
@@ -32,9 +32,9 @@ export const Route = createFileRoute("/")({
 });
 
 const QUOTES = [
-  "🛒 كل ما تحتاجه يصلك بسرعة وأمان",
+  "🌸 عناية وجمال يكمّلوا يومك",
   "❤️ ثقتك أمانة وخدمتك شرف",
-  "✨ أسعار تنافسية ومنتجات طازة كل يوم",
+  "✨ اختيارات مميزة للتجميل والعناية",
   "🚚 توصيل سريع لباب البيت",
 ];
 
@@ -131,10 +131,10 @@ function HomePage() {
         <div className="container relative mx-auto px-4 text-center">
           <div className="inline-flex items-center gap-1.5 rounded-full bg-accent/20 px-3 py-1 text-xs font-semibold text-accent-foreground mb-3 animate-fade-in">
             <Sparkles className="h-3.5 w-3.5" />
-            أسعار اليوم • منتجات طازة
+            مستحضرات تجميل ومنتجات عناية
           </div>
           <h1 className="text-3xl font-extrabold text-foreground sm:text-5xl animate-fade-in">
-            <span className="bg-gradient-to-r from-primary to-primary-glow bg-clip-text text-transparent">البسمة لمستحضرات التجميل</span>
+            <span className="bg-gradient-to-r from-primary to-primary-glow bg-clip-text text-transparent">الإسلامية</span>
           </h1>
           <p className="mt-2 text-sm text-muted-foreground sm:text-base">
             إدارة: وليد أحمد وعمرو أحمد

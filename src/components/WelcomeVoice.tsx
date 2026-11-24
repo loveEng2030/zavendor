@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import { useSoundFx } from "@/contexts/SoundContext";
 
 const SESSION_KEY = "welcome-voice-played";
-const WELCOME_TEXT = "أهلاً بكم في البسمة لمستحضرات التجميل";
+const WELCOME_TEXT = "أهلاً بكم في الإسلامية";
 
 export function WelcomeVoice() {
   const { enabled } = useSoundFx();

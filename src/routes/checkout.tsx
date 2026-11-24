@@ -21,13 +21,13 @@ type PaymentMethod = "vodafone" | "cod";
 export const Route = createFileRoute("/checkout")({
   head: () => ({
     meta: [
-      { title: "إتمام الطلب | البسمة لمستحضرات التجميل" },
-      { name: "description", content: "أدخل بيانات التوصيل واختر طريقة الدفع لإرسال طلبك إلى البسمة لمستحضرات التجميل." },
-      { property: "og:title", content: "إتمام الطلب | البسمة لمستحضرات التجميل" },
-      { property: "og:description", content: "أدخل بيانات التوصيل واختر طريقة الدفع لإرسال طلبك إلى البسمة لمستحضرات التجميل." },
+      { title: "إتمام الطلب | الإسلامية" },
+      { name: "description", content: "أدخل بيانات التوصيل واختر طريقة الدفع لإرسال طلبك إلى الإسلامية." },
+      { property: "og:title", content: "إتمام الطلب | الإسلامية" },
+      { property: "og:description", content: "أدخل بيانات التوصيل واختر طريقة الدفع لإرسال طلبك إلى الإسلامية." },
       { property: "og:type", content: "website" },
-      { name: "twitter:title", content: "إتمام الطلب | البسمة لمستحضرات التجميل" },
-      { name: "twitter:description", content: "أدخل بيانات التوصيل واختر طريقة الدفع لإرسال طلبك إلى البسمة لمستحضرات التجميل." },
+      { name: "twitter:title", content: "إتمام الطلب | الإسلامية" },
+      { name: "twitter:description", content: "أدخل بيانات التوصيل واختر طريقة الدفع لإرسال طلبك إلى الإسلامية." },
       { name: "twitter:card", content: "summary" },
     ],
   }),

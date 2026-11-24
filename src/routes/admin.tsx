@@ -17,13 +17,13 @@ import { toast } from "sonner";
 export const Route = createFileRoute("/admin")({
   head: () => ({
     meta: [
-      { title: "إدارة المتجر | البسمة لمستحضرات التجميل" },
-      { name: "description", content: "إدارة منتجات وطلبات متجر البسمة لمستحضرات التجميل." },
-      { property: "og:title", content: "إدارة المتجر | البسمة لمستحضرات التجميل" },
-      { property: "og:description", content: "إدارة منتجات وطلبات متجر البسمة لمستحضرات التجميل." },
+      { title: "إدارة المتجر | الإسلامية" },
+      { name: "description", content: "إدارة منتجات وطلبات متجر الإسلامية." },
+      { property: "og:title", content: "إدارة المتجر | الإسلامية" },
+      { property: "og:description", content: "إدارة منتجات وطلبات متجر الإسلامية." },
       { property: "og:type", content: "website" },
-      { name: "twitter:title", content: "إدارة المتجر | البسمة لمستحضرات التجميل" },
-      { name: "twitter:description", content: "إدارة منتجات وطلبات متجر البسمة لمستحضرات التجميل." },
+      { name: "twitter:title", content: "إدارة المتجر | الإسلامية" },
+      { name: "twitter:description", content: "إدارة منتجات وطلبات متجر الإسلامية." },
       { name: "twitter:card", content: "summary" },
     ],
   }),

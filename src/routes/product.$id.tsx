@@ -14,13 +14,13 @@ import { toast } from "sonner";
 export const Route = createFileRoute("/product/$id")({
   head: () => ({
     meta: [
-      { title: "تفاصيل المنتج | البسمة لمستحضرات التجميل" },
-      { name: "description", content: "اعرف تفاصيل المنتج وسعره وتقييمات العملاء في متجر البسمة لمستحضرات التجميل." },
-      { property: "og:title", content: "تفاصيل المنتج | البسمة لمستحضرات التجميل" },
-      { property: "og:description", content: "اعرف تفاصيل المنتج وسعره وتقييمات العملاء في متجر البسمة لمستحضرات التجميل." },
+      { title: "تفاصيل المنتج | الإسلامية" },
+      { name: "description", content: "اعرف تفاصيل المنتج وسعره وتقييمات العملاء في متجر الإسلامية." },
+      { property: "og:title", content: "تفاصيل المنتج | الإسلامية" },
+      { property: "og:description", content: "اعرف تفاصيل المنتج وسعره وتقييمات العملاء في متجر الإسلامية." },
       { property: "og:type", content: "website" },
-      { name: "twitter:title", content: "تفاصيل المنتج | البسمة لمستحضرات التجميل" },
-      { name: "twitter:description", content: "اعرف تفاصيل المنتج وسعره وتقييمات العملاء في متجر البسمة لمستحضرات التجميل." },
+      { name: "twitter:title", content: "تفاصيل المنتج | الإسلامية" },
+      { name: "twitter:description", content: "اعرف تفاصيل المنتج وسعره وتقييمات العملاء في متجر الإسلامية." },
       { name: "twitter:card", content: "summary" },
     ],
   }),
