@@ -1,7 +1,7 @@
 {
-  "name": "ZaVendor",
-  "short_name": "ZaVendor",
-  "description": "ZaVendor - تسوق أونلاين بأفضل الأسعار. إدارة: وليد أحمد وعمرو أحمد",
+  "name": "البسمة لمستحضرات التجميل",
+  "short_name": "البسمة",
+  "description": "البسمة لمستحضرات التجميل - تسوق أونلاين بأفضل الأسعار. إدارة: وليد أحمد وعمرو أحمد",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",

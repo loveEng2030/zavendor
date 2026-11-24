@@ -56,7 +56,7 @@ export function InstallAppButton() {
     if (res === "granted") {
       toast.success("🔔 تم تفعيل الإشعارات");
       try {
-        new Notification("ZaVendor", {
+        new Notification("البسمة لمستحضرات التجميل", {
           body: "هتوصلك إشعارات بكل جديد وحالة طلباتك",
           icon: "/icon-192.png",
           badge: "/icon-192.png",
@@ -111,7 +111,7 @@ export function InstallAppButton() {
               <Download className="h-5 w-5 text-primary" /> تثبيت التطبيق على الموبايل
             </DialogTitle>
             <DialogDescription>
-              ثبّت تطبيق ZaVendor على شاشتك الرئيسية وتوصلك الإشعارات بكل جديد وحالة طلباتك.
+              ثبّت تطبيق البسمة لمستحضرات التجميل على شاشتك الرئيسية وتوصلك الإشعارات بكل جديد وحالة طلباتك.
             </DialogDescription>
           </DialogHeader>
 

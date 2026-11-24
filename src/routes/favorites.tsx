@@ -11,13 +11,13 @@ import { toast } from "sonner";
 export const Route = createFileRoute("/favorites")({
   head: () => ({
     meta: [
-      { title: "المنتجات المفضلة | ZaVendor" },
-      { name: "description", content: "منتجاتك التي حفظتها في قائمة المفضلة بمتجر ZaVendor." },
-      { property: "og:title", content: "المنتجات المفضلة | ZaVendor" },
-      { property: "og:description", content: "منتجاتك التي حفظتها في قائمة المفضلة بمتجر ZaVendor." },
+      { title: "المنتجات المفضلة | البسمة لمستحضرات التجميل" },
+      { name: "description", content: "منتجاتك التي حفظتها في قائمة المفضلة بمتجر البسمة لمستحضرات التجميل." },
+      { property: "og:title", content: "المنتجات المفضلة | البسمة لمستحضرات التجميل" },
+      { property: "og:description", content: "منتجاتك التي حفظتها في قائمة المفضلة بمتجر البسمة لمستحضرات التجميل." },
       { property: "og:type", content: "website" },
-      { name: "twitter:title", content: "المنتجات المفضلة | ZaVendor" },
-      { name: "twitter:description", content: "منتجاتك التي حفظتها في قائمة المفضلة بمتجر ZaVendor." },
+      { name: "twitter:title", content: "المنتجات المفضلة | البسمة لمستحضرات التجميل" },
+      { name: "twitter:description", content: "منتجاتك التي حفظتها في قائمة المفضلة بمتجر البسمة لمستحضرات التجميل." },
       { name: "twitter:card", content: "summary" },
     ],
   }),

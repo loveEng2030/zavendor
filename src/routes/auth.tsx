@@ -12,13 +12,13 @@ import { toast } from "sonner";
 export const Route = createFileRoute("/auth")({
   head: () => ({
     meta: [
-      { title: "تسجيل الدخول | ZaVendor" },
-      { name: "description", content: "سجّل الدخول أو أنشئ حساباً لمتابعة طلباتك في ZaVendor." },
-      { property: "og:title", content: "تسجيل الدخول | ZaVendor" },
-      { property: "og:description", content: "سجّل الدخول أو أنشئ حساباً لمتابعة طلباتك في ZaVendor." },
+      { title: "تسجيل الدخول | البسمة لمستحضرات التجميل" },
+      { name: "description", content: "سجّل الدخول أو أنشئ حساباً لمتابعة طلباتك في البسمة لمستحضرات التجميل." },
+      { property: "og:title", content: "تسجيل الدخول | البسمة لمستحضرات التجميل" },
+      { property: "og:description", content: "سجّل الدخول أو أنشئ حساباً لمتابعة طلباتك في البسمة لمستحضرات التجميل." },
       { property: "og:type", content: "website" },
-      { name: "twitter:title", content: "تسجيل الدخول | ZaVendor" },
-      { name: "twitter:description", content: "سجّل الدخول أو أنشئ حساباً لمتابعة طلباتك في ZaVendor." },
+      { name: "twitter:title", content: "تسجيل الدخول | البسمة لمستحضرات التجميل" },
+      { name: "twitter:description", content: "سجّل الدخول أو أنشئ حساباً لمتابعة طلباتك في البسمة لمستحضرات التجميل." },
       { name: "twitter:card", content: "summary" },
     ],
   }),
@@ -111,7 +111,7 @@ function AuthPage() {
     <div className="container mx-auto flex min-h-[70vh] items-center justify-center px-4 py-8">
       <Card className="w-full max-w-md p-6">
         <div className="mb-5 text-center">
-          <h1 className="text-2xl font-bold text-foreground">حسابك في ZaVendor</h1>
+          <h1 className="text-2xl font-bold text-foreground">حسابك في البسمة لمستحضرات التجميل</h1>
           <p className="mt-1 text-sm text-muted-foreground">سجل دخول أو أنشئ حساباً جديداً</p>
         </div>
         <Tabs defaultValue="signin">

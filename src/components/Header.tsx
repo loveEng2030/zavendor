@@ -38,7 +38,7 @@ export function Header() {
             />
           </div>
           <div className="text-right leading-tight">
-            <div className="text-base font-bold text-foreground">ZaVendor</div>
+            <div className="text-base font-bold text-foreground">البسمة</div>
             <div className="text-[10px] text-muted-foreground">إدارة: وليد أحمد وعمرو أحمد</div>
           </div>
         </Link>

@@ -18,13 +18,13 @@ interface RatingInfo { avg: number; count: number }
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "ZaVendor | التجميل والمنظفات والورقيات" },
-      { name: "description", content: "تسوّق منتجات التجميل والمنظفات والورقيات من ZaVendor في فيصل، الجيزة." },
-      { property: "og:title", content: "ZaVendor | التجميل والمنظفات والورقيات" },
-      { property: "og:description", content: "تسوّق منتجات التجميل والمنظفات والورقيات من ZaVendor في فيصل، الجيزة." },
+      { title: "البسمة لمستحضرات التجميل | التجميل والمنظفات والورقيات" },
+      { name: "description", content: "تسوّق منتجات التجميل والمنظفات والورقيات من البسمة لمستحضرات التجميل في فيصل، الجيزة." },
+      { property: "og:title", content: "البسمة لمستحضرات التجميل | التجميل والمنظفات والورقيات" },
+      { property: "og:description", content: "تسوّق منتجات التجميل والمنظفات والورقيات من البسمة لمستحضرات التجميل في فيصل، الجيزة." },
       { property: "og:type", content: "website" },
-      { name: "twitter:title", content: "ZaVendor | التجميل والمنظفات والورقيات" },
-      { name: "twitter:description", content: "تسوّق منتجات التجميل والمنظفات والورقيات من ZaVendor في فيصل، الجيزة." },
+      { name: "twitter:title", content: "البسمة لمستحضرات التجميل | التجميل والمنظفات والورقيات" },
+      { name: "twitter:description", content: "تسوّق منتجات التجميل والمنظفات والورقيات من البسمة لمستحضرات التجميل في فيصل، الجيزة." },
       { name: "twitter:card", content: "summary_large_image" },
     ],
   }),
@@ -134,7 +134,7 @@ function HomePage() {
             أسعار اليوم • منتجات طازة
           </div>
           <h1 className="text-3xl font-extrabold text-foreground sm:text-5xl animate-fade-in">
-            <span className="bg-gradient-to-r from-primary to-primary-glow bg-clip-text text-transparent">ZaVendor</span>
+            <span className="bg-gradient-to-r from-primary to-primary-glow bg-clip-text text-transparent">البسمة لمستحضرات التجميل</span>
           </h1>
           <p className="mt-2 text-sm text-muted-foreground sm:text-base">
             إدارة: وليد أحمد وعمرو أحمد

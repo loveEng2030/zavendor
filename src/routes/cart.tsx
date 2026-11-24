@@ -7,13 +7,13 @@ import { useCart } from "@/contexts/CartContext";
 export const Route = createFileRoute("/cart")({
   head: () => ({
     meta: [
-      { title: "سلة المشتريات | ZaVendor" },
-      { name: "description", content: "راجع المنتجات والكميات قبل إتمام طلبك من ZaVendor." },
-      { property: "og:title", content: "سلة المشتريات | ZaVendor" },
-      { property: "og:description", content: "راجع المنتجات والكميات قبل إتمام طلبك من ZaVendor." },
+      { title: "سلة المشتريات | البسمة لمستحضرات التجميل" },
+      { name: "description", content: "راجع المنتجات والكميات قبل إتمام طلبك من البسمة لمستحضرات التجميل." },
+      { property: "og:title", content: "سلة المشتريات | البسمة لمستحضرات التجميل" },
+      { property: "og:description", content: "راجع المنتجات والكميات قبل إتمام طلبك من البسمة لمستحضرات التجميل." },
       { property: "og:type", content: "website" },
-      { name: "twitter:title", content: "سلة المشتريات | ZaVendor" },
-      { name: "twitter:description", content: "راجع المنتجات والكميات قبل إتمام طلبك من ZaVendor." },
+      { name: "twitter:title", content: "سلة المشتريات | البسمة لمستحضرات التجميل" },
+      { name: "twitter:description", content: "راجع المنتجات والكميات قبل إتمام طلبك من البسمة لمستحضرات التجميل." },
       { name: "twitter:card", content: "summary" },
     ],
   }),

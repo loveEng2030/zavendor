@@ -14,13 +14,13 @@ import { toast } from "sonner";
 export const Route = createFileRoute("/product/$id")({
   head: () => ({
     meta: [
-      { title: "تفاصيل المنتج | ZaVendor" },
-      { name: "description", content: "اعرف تفاصيل المنتج وسعره وتقييمات العملاء في متجر ZaVendor." },
-      { property: "og:title", content: "تفاصيل المنتج | ZaVendor" },
-      { property: "og:description", content: "اعرف تفاصيل المنتج وسعره وتقييمات العملاء في متجر ZaVendor." },
+      { title: "تفاصيل المنتج | البسمة لمستحضرات التجميل" },
+      { name: "description", content: "اعرف تفاصيل المنتج وسعره وتقييمات العملاء في متجر البسمة لمستحضرات التجميل." },
+      { property: "og:title", content: "تفاصيل المنتج | البسمة لمستحضرات التجميل" },
+      { property: "og:description", content: "اعرف تفاصيل المنتج وسعره وتقييمات العملاء في متجر البسمة لمستحضرات التجميل." },
       { property: "og:type", content: "website" },
-      { name: "twitter:title", content: "تفاصيل المنتج | ZaVendor" },
-      { name: "twitter:description", content: "اعرف تفاصيل المنتج وسعره وتقييمات العملاء في متجر ZaVendor." },
+      { name: "twitter:title", content: "تفاصيل المنتج | البسمة لمستحضرات التجميل" },
+      { name: "twitter:description", content: "اعرف تفاصيل المنتج وسعره وتقييمات العملاء في متجر البسمة لمستحضرات التجميل." },
       { name: "twitter:card", content: "summary" },
     ],
   }),
